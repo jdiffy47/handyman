@@ -15706,7 +15706,7 @@ nav ul li a {
 }
 @media only screen and (max-width: 479px) {
   .cta-main-wrapper-one .info-area h4.title {
-    font-size: 10px;
+    font-size: 15px;
     line-height: 26px;
   }
 }

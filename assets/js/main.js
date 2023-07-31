@@ -426,6 +426,53 @@
   
     window.location.href = mailtoLink;
   }
+
+  const residentialtabDiv = document.getElementById("v-pills-home-tab");
+  const residentialinfoDiv = document.getElementById("v-pills-home");
+
+    // Add a click event listener to the first div
+    residentialtabDiv.addEventListener("click", function() {
+        // Scroll to the second div using the scrollIntoView method
+        residentialinfoDiv.scrollIntoView({ behavior: "smooth" });
+    });
+
+
+
+
+    const commercialtabDiv = document.getElementById("v-pills-profile-tab");
+    const commercialinfoDiv = document.getElementById("v-pills-profile");
+  
+      // Add a click event listener to the first div
+      commercialtabDiv.addEventListener("click", function() {
+          // Scroll to the second div using the scrollIntoView method
+          commercialinfoDiv.scrollIntoView({ behavior: "smooth" });
+      });
+
+
+
+
+
+      const additionaltabDiv = document.getElementById("v-pills-messages-tab");
+      const additionalinfoDiv = document.getElementById("v-pills-messages");
+    
+        // Add a click event listener to the first div
+        additionaltabDiv.addEventListener("click", function() {
+            // Scroll to the second div using the scrollIntoView method
+            additionalinfoDiv.scrollIntoView({ behavior: "smooth" });
+        });
+
+
+
+
+
+        const areaservicestabDiv = document.getElementById("v-pills-settings-tab");
+        const areaservicesinfoDiv = document.getElementById("v-pills-settings");
+      
+          // Add a click event listener to the first div
+          areaservicestabDiv.addEventListener("click", function() {
+              // Scroll to the second div using the scrollIntoView method
+              areaservicesinfoDiv.scrollIntoView({ behavior: "smooth" });
+          });
   
 
 
