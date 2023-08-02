@@ -16684,7 +16684,7 @@ p {
   z-index: 1;
   overflow: hidden;
 }
-.project-one-wrapper::after {
+/* .project-one-wrapper::after {
   position: absolute;
   content: "";
   left: 0;
@@ -16696,8 +16696,8 @@ p {
   opacity: 0;
   transition: 0.6s;
   pointer-events: none;
-}
-.project-one-wrapper::before {
+} */
+/* .project-one-wrapper::before {
   position: absolute;
   content: "";
   bottom: -15px;
@@ -16708,21 +16708,19 @@ p {
   z-index: 0;
   z-index: 5;
   transition: 0.6s;
-}
+} */
 .project-one-wrapper .shape {
   position: absolute;
   z-index: 5;
-  top: -180px;
-  right: -180px;
   transition: 0.6s;
   pointer-events: none;
 }
-.project-one-wrapper .thumbnail {
+/* .project-one-wrapper .thumbnail {
   display: block;
-}
-.project-one-wrapper .thumbnail img {
+} */
+/* .project-one-wrapper .thumbnail img {
   transition: 0.6s;
-}
+} */
 .project-one-wrapper .content {
   position: absolute;
   bottom: 50px;
@@ -16741,25 +16739,32 @@ p {
   color: #fff;
   transition: 0.3s;
 }
+
+.project-one-wrapper:hover {
+  cursor: pointer;
+}
 .project-one-wrapper .content .title:hover {
   color: var(--color-primary);
 }
 .project-one-wrapper:hover::after {
   opacity: 1;
 }
-.project-one-wrapper:hover::before {
+/* .project-one-wrapper:hover::before {
   bottom: 0;
-}
-.project-one-wrapper:hover .shape {
+} */
+/* .project-one-wrapper:hover .shape {
   top: -90px;
   right: -100px;
-}
-.project-one-wrapper:hover .content {
+} */
+/* .project-one-wrapper:hover .content {
   left: 40px;
   transform: scaleY(1);
-}
+} */
 .project-one-wrapper:hover .thumbnail img {
-  transform: scale(1.15);
+  transform: none;
+}
+.project-one-wrapper .thumbnail img {
+  transform: none;
 }
 
 .project-one-wrapper .thumbnail img {
