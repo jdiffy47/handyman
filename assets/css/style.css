@@ -15453,6 +15453,20 @@ nav ul li a {
     display: none;
   }
 }
+
+.project-one-wrapper .swiper-slide .project-one-wrapper > div {
+  text-align: center; /* Center the content horizontally */
+}
+
+.project-one-wrapper .swiper-slide .project-one-wrapper > div img {
+  display: block; /* Convert the image to a block-level element */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0 auto; /* Center the image horizontally within its container */
+}
+
+
 .banner-one-swiper--wrapper-area .swiper-button-next i,
 .banner-one-swiper--wrapper-area .swiper-button-prev i {
   font-size: 25px;
